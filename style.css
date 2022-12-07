@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Poiret+One|Raleway');
+
+*,body{
+    box-sizing: border-box;
+    font-family: 'Raleway';
+
+}
+
+header{
+	width: 100%;
+	height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+}
+ul li a:hover{
+	color: tomato;
+	border-bottom: 4px solid;
+	width: 20%;
+	bottom: 3px;
+	transition: all linear 3s;
+}
+header ul{
+    font-size: 20px;
+	display:flex;
+	justify-content: center;
+	width: 50%;
+	margin-bottom:10px;
+	padding-top: 40px;
+    list-style: none;
+    width: 60%;
+    top: 0;
+    margin-left:70px;
+}
+header ul li{
+padding: 0 20px;
+}
+header h2{
+    font-family: 'Raleway';
+	position: absolute;
+	top: 10px;
+	color: #000;
+	text-align: left;
+	padding-left: 0px;
+	font-weight: bolder;
+    left: 0;
+    top: 0;
+    margin-left: 30px;
+}
+
+ul li a{
+	color: #000;
+    text-decoration: none;
+}
+header .social{
+	display: flex;
+	gap: 15px;
+	width: 20%;
+	position:absolute;
+	top: 20px;
+	right: 20px;
+}
+header .social img{
+	width: 25px;
+	height: 20px;
+}
+body{
+    padding:0;
+    margin: 0;
+    background-image: url('vivid-blurred-colorful-wallpaper-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.psection{
+    border: 1px solid transparent;
+    width: 1000px;
+    background: rgb(245, 242, 242);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 4px;
+     font-family: 'Raleway';
+    color:rgb(8, 8, 8);
+    box-shadow: 7px 13px 20px rgba(0, 0, 0, 0.527);
+
+}
+
+.opt{
+    width: 100%;
+    background: #efeff0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 14px;
+    color: inherit;
+}
+.mes{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    right: 10px;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+.texta{
+    display: inline-block;
+    background: #efeff0;
+    border: 1px solid #1f53c5;
+    color: white;
+    width: 40%;
+
+}
+.button{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+}
+.container p{
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 10px;
+    margin-left: 20px;
+    line-height: 1.5em;
+    
+}
+
+.barce h2{
+    margin-left: 70px;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bolder;
+    color: tomato;
+    
+}
+
+.banniere{
+    left: 0;
+position: absolute;
+bottom: 0;
+   width: 100%;
+   height: 10vh;
+   background-color: tomato;
+   background-image: url(./image/travel.jpeg);
+   background-size: cover;
+   background-position:top;
+   background-repeat: no-repeat;
+}
+.container img{
+    margin-left: 30px;
+    width: 420px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+
